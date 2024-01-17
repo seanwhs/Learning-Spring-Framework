@@ -22,29 +22,13 @@ In the final iteration, Spring annotations are introduced for further simplifica
 
 ## Project Structure
 
-The project follows a modular structure:
-
-- **src/main/java/learn/springframework/game:** Contains the source code for game-related classes.
-- **src/main/java/learn/springframework:** Houses the main application classes, including the GameRunner and the Spring configuration classes.
+1. There are 4 projects, one for each iteration.
+2. Each project/iteraction is stored in it's own folder.
 
 ## How to Run
 
-To run the application, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Ensure you have Java and Maven installed.
-3. Navigate to the root directory of the project.
-4. Run the following command in your terminal:
-
-    ```bash
-    mvn clean install
-    ```
-
-5. Execute the application:
-
-    ```bash
-    java -jar target/your-application-jar-name.jar
-    ```
+1. Copy the code into your hard drive
+2. Run the projects  as you would run normal Java projects 
 
 Feel free to explore each iteration and dive into the code to understand the gradual transformation from tight to loose coupling using the Spring Framework.
 
